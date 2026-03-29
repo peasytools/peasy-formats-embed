@@ -280,6 +280,17 @@ Part of [Peasy Tools](https://peasytools.com) -- simple, fast, free developer to
 | PeasyMath | [peasymath.com](https://peasymath.com) | [npm](https://www.npmjs.com/package/peasy-math-embed) | Math tools |
 | PeasyGen | [peasygen.com](https://peasygen.com) | [npm](https://www.npmjs.com/package/peasy-gen-embed) | Generator tools |
 
+## Embed Widget
+
+Embed [PeasyFormats](https://peasyformats.com) widgets on any website with [peasy-formats-embed](https://widget.peasyformats.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/peasy-formats-embed@1/dist/embed.min.js"></script>
+<div data-peasyformats="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.peasyformats.com)
+
 ## License
 
 MIT -- see [LICENSE](./LICENSE).
