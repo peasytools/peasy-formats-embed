@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# PeasyFormats Embed Widget
+# Main site: https://peasyformats.com
+# Widget docs: https://widget.peasyformats.com
+# npm: https://www.npmjs.com/package/peasy-formats-embed
