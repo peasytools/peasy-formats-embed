@@ -1,21 +1,52 @@
 # PeasyFormats Embed Widget
 
-> Embeddable PeasyFormats widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> File conversion tools. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/peasy-formats-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/peasy-formats-embed@1/dist/embed.min.js"></script>
+<div data-peasyformats="format" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- format: `data-peasyformats="format"`
+- tool: `data-peasyformats="tool"`
+- convert: `data-peasyformats="convert"`
+- compare: `data-peasyformats="compare"`
+- glossary: `data-peasyformats="glossary"`
+- gallery: `data-peasyformats="gallery"`
+- guide: `data-peasyformats="guide"`
+- search: `data-peasyformats="search"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-peasyformats="format" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/peasy-formats-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://peasyformats.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://peasyformats.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://peasyformats.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://peasyformats.com
 - Widget docs: https://widget.peasyformats.com
-- npm: https://www.npmjs.com/package/peasy-formats-embed
-- GitHub: https://github.com/peasytools/peasy-formats-embed
-- API: https://peasyformats.com/developers/
+- API documentation: https://peasyformats.com/developers/
+- npm package: https://www.npmjs.com/package/peasy-formats-embed
+- GitHub: https://github.com/fyipedia/peasy-formats-embed
 
-## Peasy Tools Widget Family
+## Peasy Tools Widget Network
 
 - [PeasyTools Widget](https://widget.peasytools.com)
 - [PeasyPDF Widget](https://widget.peasypdf.com)
